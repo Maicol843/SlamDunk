@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----INDEX.HTML----*/
+
+/*Header*/
+header{
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-image: url(../assets/img6.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 930px; /*Cambia la posicion en el eje x del background*/
+    background-size: 5%; /*Cambia el tamaño de la imagen del background*/
+}
+
+header img{
+    height: 50px;
+    width: 200px;
+}
+
+h2{
+    font-family: 'Lora';
+    font-size: 3rem;
+    flex-grow: 1;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 1px white; /*Bordes del texto*/
+}
+
+/*Navegador*/
+nav{
+    min-height: 6vh;
+    background-color: rgb(226, 2, 2);
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    width: 7rem;
+    text-align: center;
+    text-decoration: none;
+    height: 2.5rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: red;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: red;
+    background-color: white;
+}
+
+.active{
+    background-color: black;
+    color: red;
+}
+
+/*Main*/
+main{
+    background: linear-gradient(red, rgb(255, 17, 0)); /*Colores gradientes*/
+    min-height: 79vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+main h2{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.portada{
+    width: 100vw;
+}
+
+p{
+    color: black;
+}
+
+hr{
+    color: white;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: rgb(255, 56, 56);
+    padding-top: 1%;
+}
