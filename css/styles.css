@@ -95,6 +95,8 @@ main h2{
 
 p{
     color: black;
+    text-align: justify; /*Alineación del texto*/
+    text-indent: 40px; /*Sangría del texto*/
 }
 
 hr{
@@ -114,3 +116,5 @@ footer p{
     color: rgb(255, 56, 56);
     padding-top: 1%;
 }
+
+
