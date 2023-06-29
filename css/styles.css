@@ -23,20 +23,6 @@ header{
     background-size: 5%; /*Cambia el tamaño de la imagen del background*/
 }
 
-#headerArgumento{
-    background-image: url(../assets/img3.png);
-    background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 915px; /*Cambia la posicion en el eje x del background*/
-    background-size: 7%; /*Cambia el tamaño de la imagen del background*/
-}
-
-#headerPersonajes{
-    background-image: url(../assets/img1.png);
-    background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 775px; /*Cambia la posicion en el eje x del background*/
-    background-size: 20%; /*Cambia el tamaño de la imagen del background*/
-}
-
 header img{
     height: 50px;
     width: 200px;
@@ -135,7 +121,21 @@ footer p{
     padding-top: 1%;
 }
 
+/*----ARGUMENTOS.HTML----*/
+#headerArgumento{
+    background-image: url(../assets/img3.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 915px; /*Cambia la posicion en el eje x del background*/
+    background-size: 7%; /*Cambia el tamaño de la imagen del background*/
+}
+
 /*----PERSONAJES.HTML----*/
+#headerPersonajes{
+    background-image: url(../assets/img1.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 775px; /*Cambia la posicion en el eje x del background*/
+    background-size: 20%; /*Cambia el tamaño de la imagen del background*/
+}
 
 /*MainPersonajes*/
 #mainPersonajes{
@@ -198,6 +198,7 @@ section div{
 
 .titulocard{
     font-size: 1.7rem;
+    text-align: left;
 }
 
 .parrafo{
@@ -206,6 +207,54 @@ section div{
     color: black;
 }
 
+/*----INFORMACION.HTML----*/
+#headerInformacion{
+    background-image: url(../assets/img2.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 900px; /*Cambia la posicion en el eje x del background*/
+    background-size: 8%; /*Cambia el tamaño de la imagen del background*/
+}
+
+.mainInformacion{
+    min-height: 140vh;
+}
+
+table{
+    width: 500px;
+    color:black;
+}
+
+table tr td{
+    border: 1px solid white;
+}
+
+td{
+    padding: 2%;
+}
+
+tr{
+    background-color: rgb(158, 0, 0);
+}
+
+.tituloTabla{
+    font-size: 2rem;
+    -webkit-text-stroke: 1px white;
+
+}
+
+.dato{
+    background-color: red;
+}
+
+.portada3{
+    width: 350px;
+    height: 450px;
+    border-radius: 0.4rem;
+}
+
+.contenedorImg{
+    padding-left: 10%;
+}
 
 
 
