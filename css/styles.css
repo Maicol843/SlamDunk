@@ -14,10 +14,27 @@ header{
     padding: 1rem;
     gap: 1rem;
     flex-wrap: wrap;
+}
+
+#headerIndex{
     background-image: url(../assets/img6.png);
     background-repeat: no-repeat; /*Para no se repita la imagen background*/
     background-position-x: 930px; /*Cambia la posicion en el eje x del background*/
     background-size: 5%; /*Cambia el tamaño de la imagen del background*/
+}
+
+#headerArgumento{
+    background-image: url(../assets/img3.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 915px; /*Cambia la posicion en el eje x del background*/
+    background-size: 7%; /*Cambia el tamaño de la imagen del background*/
+}
+
+#headerPersonajes{
+    background-image: url(../assets/img1.png);
+    background-repeat: no-repeat; /*Para no se repita la imagen background*/
+    background-position-x: 775px; /*Cambia la posicion en el eje x del background*/
+    background-size: 20%; /*Cambia el tamaño de la imagen del background*/
 }
 
 header img{
@@ -37,7 +54,7 @@ h2{
 /*Navegador*/
 nav{
     min-height: 6vh;
-    background-color: rgb(226, 2, 2);
+    background-color: rgb(158, 0, 0);
     display: flex;
     gap: 1rem;
     padding: 0.5rem;
@@ -56,6 +73,7 @@ nav a{
     padding: 0.4rem;
     color: black;
     font-weight: bolder;
+    font-family: 'Trebuchet MS';
     font-size: 1rem;
     background-color: red;
     transition: all 0.5s;
@@ -116,5 +134,79 @@ footer p{
     color: rgb(255, 56, 56);
     padding-top: 1%;
 }
+
+/*----PERSONAJES.HTML----*/
+
+/*MainPersonajes*/
+#mainPersonajes{
+    min-height: 280vh;
+}
+
+/*Galeria*/
+.galeria{
+    width: 60vw;
+    height: 400px;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 20%;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.galeria img:hover{
+    width: 60%;
+}
+
+/*Secciones*/
+section{
+    display: flex;
+    background-color: rgb(158, 0, 0);
+    width: 440px;
+    height: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+section:hover{
+    transform: scale(1.2);
+}
+
+section img{
+    height: 100%;
+    width: 30%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+
+section div{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div{
+    width: 100%;
+    text-align: center;
+}
+
+.titulocard{
+    font-size: 1.7rem;
+}
+
+.parrafo{
+    text-align: justify;
+    text-indent: 0px;
+    color: black;
+}
+
+
+
 
 
