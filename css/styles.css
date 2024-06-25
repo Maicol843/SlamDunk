@@ -19,7 +19,7 @@ header{
 #headerIndex{
     background-image: url(../assets/img6.png);
     background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 930px; /*Cambia la posicion en el eje x del background*/
+    background-position-x: 1170px; /*Cambia la posicion en el eje x del background*/
     background-size: 5%; /*Cambia el tamaño de la imagen del background*/
 }
 
@@ -85,6 +85,7 @@ main{
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    padding-bottom: 40px;
 }
 
 main h2{
@@ -93,7 +94,7 @@ main h2{
     font-size: 3rem;
 }
 
-.portada{
+.portada img{
     width: 100vw;
 }
 
@@ -125,7 +126,7 @@ footer p{
 #headerArgumento{
     background-image: url(../assets/img3.png);
     background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 915px; /*Cambia la posicion en el eje x del background*/
+    background-position-x: 1160px; /*Cambia la posicion en el eje x del background*/
     background-size: 7%; /*Cambia el tamaño de la imagen del background*/
 }
 
@@ -133,7 +134,7 @@ footer p{
 #headerPersonajes{
     background-image: url(../assets/img1.png);
     background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 775px; /*Cambia la posicion en el eje x del background*/
+    background-position-x: 980px; /*Cambia la posicion en el eje x del background*/
     background-size: 20%; /*Cambia el tamaño de la imagen del background*/
 }
 
@@ -211,7 +212,7 @@ section div{
 #headerInformacion{
     background-image: url(../assets/img2.png);
     background-repeat: no-repeat; /*Para no se repita la imagen background*/
-    background-position-x: 900px; /*Cambia la posicion en el eje x del background*/
+    background-position-x: 1140px; /*Cambia la posicion en el eje x del background*/
     background-size: 8%; /*Cambia el tamaño de la imagen del background*/
 }
 
